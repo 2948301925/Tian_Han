@@ -1,0 +1,234 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+            "path" : "pages/tabbar/index/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+            }
+            
+        },
+		{
+		    "path" : "pages/tabbar/jh/classify",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "地图",
+				"navigationBarBackgroundColor": "#77c78c",
+				"navigationBarTextStyle": "white",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+        {
+            "path" : "pages/tabbar/mine/mine",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor": "#77c78c",
+				"navigationBarTextStyle": "white",
+                "enablePullDownRefresh": false,
+				"disableScroll": true // 禁用页面滚动
+            }
+            
+        },
+		{
+		    "path" : "pages/personal/personal",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#77c78c",
+				"navigationBarTextStyle": "white",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/xhsj/xhsj",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "兴汉胜境",
+				"navigationBarBackgroundColor": "#77c78c",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+			"path": "pages/xhsj/smzd",
+			"style": 
+			{
+				"navigationBarTitleText": "石门栈道",
+				"navigationBarBackgroundColor": "#77c78c",
+				"enablePullDownRefresh": false
+			}
+		}
+		,{
+			"path": "pages/xhsj/bjt",
+			"style": 
+			{
+				"navigationBarTitleText": "拜将台",
+				"navigationBarBackgroundColor": "#77c78c",
+				"enablePullDownRefresh": false
+			}
+		}
+		,{
+			"path": "pages/xhsj/hznh",
+			"style": 
+			{
+				"navigationBarTitleText": "汉中南湖",
+				"navigationBarBackgroundColor": "#77c78c",
+				"enablePullDownRefresh": false
+			}
+		}
+		,{
+			"path": "pages/xhsj/hzttgjslgy",
+			"style": 
+			{
+				"navigationBarTitleText": "汉中天台国家森林公园",
+				"navigationBarBackgroundColor": "#77c78c",
+				"enablePullDownRefresh": false
+			}
+		}
+		,{
+			"path": "pages/xhsj/hzbwg",
+			"style": 
+			{
+				"navigationBarTitleText": "汉中博物馆",
+				"navigationBarBackgroundColor": "#77c78c",
+				"enablePullDownRefresh": false
+			}
+		}
+		,{
+			"path": "pages/xhsj/bhslgy",
+			"style": 
+			{
+				"navigationBarTitleText": "褒河森林公园",
+				"navigationBarBackgroundColor": "#77c78c",
+				"enablePullDownRefresh": false
+			}
+		}
+		,{
+			"path": "pages/xhsj/hzmsc",
+			"style": 
+			{
+				"navigationBarTitleText": "汉中民俗村",
+				"navigationBarBackgroundColor": "#77c78c",
+				"enablePullDownRefresh": false
+			}
+		}
+		,{
+			"path": "pages/xhsj/xyhgy",
+			"style": 
+			{
+				"navigationBarTitleText": "兴元湖公园",
+				"navigationBarBackgroundColor": "#77c78c",
+				"enablePullDownRefresh": false
+			}
+		}
+		,{
+			"path": "pages/xhsj/hzlhgy",
+			"style": 
+			{
+				"navigationBarTitleText": "汉中莲湖公园",
+				"navigationBarBackgroundColor": "#77c78c",
+				"enablePullDownRefresh": false
+			}
+		}
+		,{
+			"path": "pages/xhsj/nzq",
+			"style": 
+			{
+				"navigationBarTitleText": "南郑区",
+				"navigationBarBackgroundColor": "#77c78c",
+				"enablePullDownRefresh": false
+			}
+		}
+		,{
+			"path": "pages/xhsj/lts",
+			"style": 
+			{
+				"navigationBarTitleText": "龙头山风景区",
+				"navigationBarBackgroundColor": "#77c78c",
+				"enablePullDownRefresh": false
+			}
+		}
+		,{
+			"path": "pages/xhsj/wzs",
+			"style": 
+			{
+				"navigationBarTitleText": "午子山",
+				"navigationBarBackgroundColor": "#77c78c",
+				"enablePullDownRefresh": false
+			}
+		}
+		,{
+			"path": "pages/xhsj/dfd",
+			"style": 
+			{
+				"navigationBarTitleText": "大佛洞",
+				"navigationBarBackgroundColor": "#77c78c",
+				"enablePullDownRefresh": false
+			}
+		}
+		,{
+			"path": "pages/xhsj/ydl",
+			"style": 
+			{
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor": "#77c78c",
+				"enablePullDownRefresh": false
+			}
+		}
+		,{
+			"path": "pages/dw/nhfjq",
+			"style": 
+			{
+				"navigationBarTitleText": "导航",
+				"navigationBarBackgroundColor": "#77c78c",
+				"enablePullDownRefresh": false
+			}
+		}
+		,{
+			"path": "pages/xhsj/zcym/zc",
+			"style": 
+			{
+				"navigationBarTitleText": "注册",
+				"navigationBarBackgroundColor": "#77c78c",
+				"enablePullDownRefresh": false
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#77c78c",
+		"borderStyle": "#fff",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/tabbar/index/index",
+				"text": "首页",
+				"iconPath": "static/index2.png",
+				"selectedIconPath": "static/index1.png"
+			},
+			{
+				"pagePath": "pages/tabbar/jh/classify",
+				"text": "地图",
+				"iconPath": "static/classify2.png",
+				"selectedIconPath": "static/classify1.png"
+			},
+			{
+				"pagePath": "pages/tabbar/mine/mine",
+				"text": "我的",
+				"iconPath": "static/mine2.png",
+				"selectedIconPath": "static/mine1.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
